@@ -1,0 +1,13 @@
+-div.card
+    -div.year
+        -p
+    -div.date
+        -h3
+        -p
+    -div.content
+        -h3
+        -p
+        -p (span)
+        -p(span)
+        -p (span)
+        -a

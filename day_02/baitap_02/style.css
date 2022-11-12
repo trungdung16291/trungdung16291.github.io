@@ -1,0 +1,32 @@
+.row{
+    border:960px ;
+    display: flex;
+    list-style-type: none;
+    padding: 15px;
+    background-color: #30598c;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+li{
+    list-style-type: none;
+}
+.desktop.social-link{
+    display: flex;
+    height: 50px;
+    justify-content: flex-start;
+    margin: auto;
+}
+ul.desktop.list-inline.social-links{
+    display: flex;
+    margin-top: 20px;
+    
+}
+ul.desktop.list-inline.social-links li{
+   flex-basis: 20%;
+}
+ul.desktop.list-inline.social-links li.display{
+    margin-left: 0;
+}
