@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #ced9ea;
+    
+}
+
+.container{
+    width: 1320px;
+    height: auto;
+    margin:  30px auto;
+   
+   
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.row .col  {
+    flex-basis: 25%;
+   padding: 0 15px;
+   
+}
+
+.card {
+    
+    background-color: #fff;
+    margin-bottom: 30px;
+  
+
+}
+
+
+.image {
+    height: 220px;
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.text_h3{
+ font-size: 20px;
+ font-weight: 400;
+ width: 100%;
+ height: 50px;
+}
+
+.content {
+   padding: 15px;
+  
+}
+
+.content h {
+    color: #464646;
+    font-size: 20px;
+    font-weight: 400;
+    
+}
+
+
+
+.content p {
+    color: #757575;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.content p span {
+    color: #ffd600;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+
+}
+
+
+
+
+
+
+
+
+
+.end{
+    border:1320px ;
+    display: flex;
+    list-style-type: none;
+    padding: 15px;
+    background-color: #30598c;
+    color: white;
+    justify-content: space-between;
+    border: 100px;
+    
+    
+}
+a{
+    text-decoration: none;
+   color: #fff;
+}
+
+
+
+h4{
+    font-weight: 300px;
+}
+
+div ul li {
+    list-style: none;
+    font-weight:400 ;
+    font-size:14px;
+    line-height: 35px;
+    
+}
+desktop  list-inline social-links{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.facebook,
+.youtube,
+.github {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-top: 10px;
+    display: flex;
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+div{
+    width: 1000px;
+    max-width: 1000px;
+    height: auto;
+
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #fff
+    
+}
+a{
+    text-decoration: none;
+    background-color:blueviolet;
+    border: 10px;
+}
+.text{display: flex;
+
+}
+
+
+.buttom{
+    background-color: blue;
+    padding: 5px;
+}
+.fa-text-height{ margin: 30px auto;}
