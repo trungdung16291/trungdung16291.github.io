@@ -103,7 +103,7 @@ body {
     background-color: #30598c;
     color: white;
     justify-content: space-between;
-    border: 100px;
+    
     
     
 }
@@ -124,23 +124,25 @@ div ul li {
     font-size:14px;
     line-height: 35px;
     
-}
-desktop  list-inline social-links{
-    display: flex;
-    flex-direction: column-reverse;
-}
-
-.facebook,
-.youtube,
-.github {
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 28px;
-    margin-top: 10px;
-    display: flex;
     
-
 }
+.desktop {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    list-style: none;
+    
+    
+    
+  }
+  .desktop li a {
+   
+    
+    
+     
+     
+  }
+
 
 
 
