@@ -1,0 +1,50 @@
+.box{
+
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+
+    transition-property: width, height;
+    transition-duration: 1s, 2s;
+    /* thay đổi tgian ,,transition :ALL 1s*/ 
+}
+.box:hover {
+    width: 400px;
+    height: 300PX;
+}
+
+.content{
+    width: 500px;
+    background-color: black;
+    color: aliceblue;
+    padding: 20px;
+    margin: auto;
+
+    overflow: hidden;
+
+}
+
+.content h2 {
+   position : relative;
+    left: 500px;
+    opacity: 0;
+    transition: all 1s;
+}
+
+.content:hover h2{
+    left: 0;
+    opacity: 1;
+}
+
+.content p {
+    position: relative;
+    right: 550px;
+    opacity: 0;
+    transition: all 2s;
+}
+
+.content:hover P {
+    right: 0;
+    opacity: 1;
+}
+

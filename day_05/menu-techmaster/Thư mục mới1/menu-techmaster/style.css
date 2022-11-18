@@ -58,9 +58,12 @@ img{
     
 }
 
-.sub-menu2 li:hover {
+.sub-menu li:hover {
     color: blueviolet;
     background-color: black;
+}
+.menu .item li:hover .sub-menu{
+    display: block;
 }
 
 

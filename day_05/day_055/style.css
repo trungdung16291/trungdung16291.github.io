@@ -63,8 +63,8 @@ ul {
     color: chocolate;
 }
 
-.menu-item:hover > p .icon,
-.menu-item:hover > p .icon {
+.menu-item:hover > p .icon
+{
     display: inline-block;
     color: #f54206;
 }
@@ -89,9 +89,8 @@ ul {
     left: 200px;
     background-color: rgb(178, 178, 201);
     display: none;
-    height: 100%;
-}
-.menu-item1:hover .sub-menu1 {
-    display: block;
-}
+    height: 100%;}
 
+.menu-item1:hover .sub-menu1{
+    display: block ;
+}
