@@ -1,96 +1,80 @@
-* {
+*{
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
+    
+}
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: gray;
+}
+.header-text{
+    color: red;
+    font-size: 24px;
+    padding: 20px 20px;
+    border-bottom: 1px solid #5c5c5c;
+}
+.header{
+    margin: 20px;
+    
 }
 
-body {
-    font-family: "Roboto", sans-serif;
-    background-color: rgb(5, 19, 19);
+.header .menu{
+    list-style: none;
+    background-color:#fff;
+    padding-left:20px ;
+    width: 250px;
+}
 
-    height: 100vh;
+
+.header .menu li{
+    padding: 10px 0px;
+    border-bottom: 1px solid #5c5c5c;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-    color: #757575;
-}
-
-a {
-    text-decoration: none;
-    color: #757575;
-}
-
-ul {
-    list-style-type: none;
-}
-
-.title {
-    margin-bottom: 20px;
-    color: #f54206;
-}
-
-.menu {
-    background-color: #fff;
+    justify-content: space-between;
     position: relative;
 }
 
-.menu-item {
-    width: 200px;
-    /* position: relative; */
-}
-
-.menu-item p {
-    padding-left: 8px;
-    padding-right: 8px;
-    height: 27px;
-    line-height: 27px;
-    text-decoration: none;
-    font-size: 13px;
-
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.menu-item p .icon {
+.fa-angle-right {
+    margin-left: 50px;
     display: none;
 }
-
-.menu-item:hover > p,
-.menu-item:hover > p a {
-    color: chocolate;
+.menu li .text{
+    width: 70%;
 }
-
-.menu-item:hover > p .icon
-{
-    display: inline-block;
-    color: #f54206;
+.menu li .icon {
+    width: 30%;
 }
-
-.sub-menu {
-    width: 200px;
-    position: absolute;
-    top: 0;
-    left: 200px;
-    background-color: aquamarine;
-    display: none;
-    height: 100%;
-}
-
-.menu-item:hover .sub-menu {
+.header .menu li:hover >.icon .fa-angle-right{
     display: block;
-}
-.sub-menu1{
-    width: 200px;
-    position: absolute;
-    top: 0;
-    left: 200px;
-    background-color: rgb(178, 178, 201);
-    display: none;
-    height: 100%;}
+    color: brown;
 
-.menu-item1:hover .sub-menu1{
-    display: block ;
+}
+.header .menu li .text:hover {
+    color: brown;
+}
+.header .menu li .sub-menu {
+    position: absolute;
+    left: 250px;
+    width: 300px;
+    padding-left:20px ;
+    background-color: bisque;
+    top: 0;
+    display: none;
+
+}
+.header .menu li:hover> .sub-menu{
+    display: block;
+
+}
+.header .menu li .sub-menu li .sub-menu{
+    position: absolute;
+    left: 300px;
+    background-color: antiquewhite;
+    height: 511px;
+    top: -85.6px;
+
+}
+.header .menu li:hover{
+    color: blue;
+
 }
