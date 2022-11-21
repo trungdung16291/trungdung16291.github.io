@@ -5,7 +5,10 @@
 body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
    background-color: #9c9c9c;
-    
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .container {
     width: 500px;
@@ -14,21 +17,25 @@ body {
     background-color: aliceblue;
     transition: all 1s linear;
     
-}
-
-.container:hover > .content {
-    position: absolute;
-   top: 300px;
-    height: 300px;
    
 }
-.container:hover > .card {
+
+
+.container:hover > .content {
     
-    height: 300px;
+    top: 300px;
+    left: 0;
+    background-color: #fff;
+   
 }
+
 
 .container .card {
     height: 400px;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
 }
 
 .container .card img {
@@ -38,6 +45,11 @@ body {
 
 .content {
     height: 200px;
+    position: absolute;
+    top: 400px;
+    left: 0;
+    z-index: 2;
+    background-color: #fff;
 }
 .container .card .mar {
     width: 80px;
@@ -63,7 +75,8 @@ body {
     text-transform: uppercase;
     line-height: 30px;
     text-align: center;
-    margin-left: 40px;
+    
+    margin-top: -30px;
 }
 .content {
     
@@ -80,3 +93,4 @@ body {
 
 
 
+ 
