@@ -93,7 +93,7 @@ body {
     margin-left: 20px;
     padding-bottom:10px;
 }
-.content span {
+.container .content span {
     justify-content: space-between;
     margin:30px;
 }
