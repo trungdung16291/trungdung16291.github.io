@@ -11,6 +11,49 @@ body {
     font-family: 'Roboto', sans-serif;
     /* font-family: 'Roboto Condensed', sans-serif; */
 }
+.row {
+    display: flex;
+    gap: 20px;
+    width: 1000px;
+    max-width: 1000px;
+    height: 100px;
+    max-height: 100px;
+    margin: 20px 0px;
+    line-height: 100px;
+}
+
+.row .row__content p {
+    color: #097829;
+    font-weight: 900;
+    font-size: 22px;
+}
+.row__input .row__input__content {
+    color: #097829;
+    height: 35px;
+    max-height: 35px;
+    margin-bottom: 30px;
+
+    
+}
+.search_input {
+    
+    height: 30px;
+    position: absolute;
+    z-index: 1;
+}
+.btnsearch {
+
+    position: absolute;
+    z-index: 2;
+    
+    right: -32px;
+    height: 34px;
+    color: #fff;
+    background-color: red;
+}
+
+
+/* css header */
 .header {
     width: 1000px;
     max-width: 1000px;
@@ -53,8 +96,8 @@ body {
     position: relative;
 }
 .navbar__logo .navbar__logo__image a img {
-    width: 700px;
-    max-width: 700px;
+    width: 600px;
+    max-width: 600px;
 }
 
 .animation {
